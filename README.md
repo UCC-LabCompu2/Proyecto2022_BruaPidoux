@@ -2,7 +2,7 @@
 
 Título: Salve al Rey.
 Autores: Jonathan Brua, Felipe Pidoux.
-https://github.com/jonibru/Proyecto2022_BruaPidoux
+(https://github.com/UCC-LabCompu2/Proyecto2022_BruaPidoux)
 Repositorio con el que iniciamos (ya que no nos dimos cuenta de publicarlo en el classroom https://github.com/jonibru/Proyecto2022-Brua-Pidoux
 (En caso que se quiera ver la evolucion del proyecto)
 El proyecto es un juego decision-based, donde el jugador debe elegir entre 2 opciones en una situacion determinada para lograr un objetivo.
