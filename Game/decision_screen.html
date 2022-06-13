@@ -2,17 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Gameplay</title>
+    <title>Gameplay screen</title>
+    <meta content="Brua Jonathan, Pidoux Felipe" name="autor">
+    <meta content="Juego de decisiones" name="descripcion">
+    <link rel="shortcut icon" href="crown.png">
+    <meta content="juego, decisiones, rey" name="keywords">
     <link rel="stylesheet" href="decision_screen_styles.css">
+    <script src="script.js"> </script>
+
 </head>
 <body>
     <div class="box">
         <div class="situacion">
-            <p>Estas en un establo fuera del castillo del rey</p>
+            <span id="contexto"> Estas en un establo fuera del castillo del rey </span>
         </div>
         <div class="choice">
-            <input type="button" class="choice_btn" id="choice1_btn" value="ENTRAR ESCONDIDO">
-            <input type="button" class="choice_btn" id="choice2_btn" value="ROBAR ARMAS A LOS GUARDIAS">
+            <input type="button" class="choice_btn" id="choice1_btn" value="ENTRAR ESCONDIDO" onclick="decision(1)"> 
+            <input type="button" class="choice_btn" id="choice2_btn" value="ROBAR ARMAS A LOS GUARDIAS" onclick="decision(0)">
         </div>
     </div>
     
