@@ -1,7 +1,6 @@
 body {
-  background-image: url(ganar_fondo.png);
-  padding: -10%;
-  background-attachment: fixed;
+  background-image: url(ganar_fondo1.png);
+
 }
 .ganaste{
   color: aliceblue;
