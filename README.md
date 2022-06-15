@@ -2,6 +2,7 @@
 
 Título: Salve al Rey.
 Autores: Jonathan Brua, Felipe Pidoux.
+LINK: https://ucc-labcompu2.github.io/Proyecto2022_BruaPidoux/
 (https://github.com/UCC-LabCompu2/Proyecto2022_BruaPidoux)
 Repositorio con el que iniciamos (ya que no nos dimos cuenta de publicarlo en el classroom https://github.com/jonibru/Proyecto2022-Brua-Pidoux
 (En caso que se quiera ver la evolucion del proyecto)
