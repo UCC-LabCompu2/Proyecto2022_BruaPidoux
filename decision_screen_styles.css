@@ -8,16 +8,25 @@ body {
     background-attachment: fixed;
 }
 
-  .box {
-    margin-top:7%;
-    margin-right: 18%;
-    margin-left: 18%;
-    position: absolute;
-    background-color: #689c62e3;
-    color: whitesmoke;
-    border-radius: 100px;
-    width: 60%;
-    height: 65%;
+#progressBar {
+  border: 5px solid #4a6e46bc;
+  border-radius: 15px;
+  margin-left: 35%;
+}
+
+#crown {
+  width: 4%;
+}
+
+.box {
+  margin-top:7%;
+  margin-left: 20%;
+  position: absolute;
+  background-color: #689c62e3;
+  color: whitesmoke;
+  border-radius: 100px;
+  width: 60%;
+  height: 65%;
 }
 
 .situacion{

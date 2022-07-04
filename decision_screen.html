@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="decision_screen_styles.css">
     <script src="script.js"> </script>
 </head>
-<body>
+<body onload="drawCanvas();">
+    <canvas id="progressBar" width="400" height="30">Su navegador no soporta Canvas.</canvas>
+    <img src="crown.png" alt="end crown" id="crown">
     <div class="box">
         <div class="situacion">
             <span id="contexto"> Estas en un establo fuera del castillo del rey </span>
@@ -20,8 +22,6 @@
             <input type="button" class="choice_btn" id="choice2_btn" value="ENTRAR POR EL TECHO" onclick="decision('2')">
         </div>
     </div>
-    
 
 </body>
 </html>
-

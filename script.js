@@ -1,5 +1,29 @@
+function drawCanvas(canvas) {
+    var canvas = document.getElementById('progressBar');
+    var ctx = canvas.getContext('2d');
+    var img = new Image();
+    img.onload = function() {
+        ctx.drawImage(img, 0, 0, img.width * 0.06, img.height * 0.06)
+    }
+    img.src = 'helmet.png';
+}
 
+function fillBar(x){
+    var canvas = document.getElementById('progressBar');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = "green";
+    ctx.fillRect(0, 0, x* ctx.canvas.width/100, ctx.canvas.height);
+}
 
+function char_pic(x){
+    var canvas = document.getElementById('progressBar');
+    var ctx = canvas.getContext('2d');
+    var img = new Image();
+    img.onload = function() {
+        ctx.drawImage(img, x* ctx.canvas.width/100 -15, 0, img.width * 0.06, img.height * 0.06)
+    }
+    img.src = 'helmet.png';
+}
 
 function decision(x) {
     var contexto = document.getElementById('contexto')
@@ -26,6 +50,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('4')
             };
+            fillBar(20);
+            char_pic(20);
             break
         case '2':
             contexto.innerHTML = "Estas en el techo del castillo"
@@ -37,6 +63,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('13')
             };
+            fillBar(20);
+            char_pic(20);
             break
         case '3':
             contexto.innerHTML = "Se escucha la voz del rey pidiendo ayuda al final del pasillo"
@@ -48,6 +76,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('6')
             };
+            fillBar(55);
+            char_pic(55);
             break
         case '4':
             contexto.innerHTML = "Los guardias están en alerta por el corte de energía pero no pueden ver bien"
@@ -59,6 +89,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('3')
             };
+            fillBar(40);
+            char_pic(40);
             break
         case '5':
             contexto.innerHTML = "¡Encontraste al rey! pero hiciste mucho ruido"
@@ -70,6 +102,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('01')
             };
+            fillBar(85);
+            char_pic(85);
             break
         case '6':
             contexto.innerHTML = "¡Encontraste al rey!"
@@ -81,6 +115,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('0')
             };
+            fillBar(85);
+            char_pic(85);
             break
         case '7':
             contexto.innerHTML = "Lograste entrar al castillo sin ser descubierto"
@@ -92,6 +128,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('3')
             };
+            fillBar(40);
+            char_pic(40);
             break
         case '8':
             contexto.innerHTML = "Se escuchan murmuros en una habitación"
@@ -103,6 +141,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('9')
             };
+            fillBar(45);
+            char_pic(45);
             break
         case '9':
             contexto.innerHTML = "Alguien sale al pasillo"
@@ -114,6 +154,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('11')
             };
+            fillBar(60);
+            char_pic(60);
             break
         case '10':
             contexto.innerHTML = "¡Es el rey!"
@@ -125,6 +167,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('0')
             };
+            fillBar(80);
+            char_pic(80);
             break
         case '11':
             contexto.innerHTML = "Quedó la puerta de la habitación del rey abierta"
@@ -136,6 +180,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('12')
             };
+            fillBar(70);
+            char_pic(70);
             break
         case '12':
             contexto.innerHTML = "Un guardia escuchó un ruido y se acerca a investigar"
@@ -147,6 +193,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('0')
             };
+            fillBar(75);
+            char_pic(75);
             break
         case '13':
             contexto.innerHTML = "Un guardia escuchó un ruido y se acerca a investigar"
@@ -158,6 +206,8 @@ function decision(x) {
             button2.onclick = function() {
                 decision('0')
             };
+            fillBar(35);
+            char_pic(35);
             break
     }
 }
