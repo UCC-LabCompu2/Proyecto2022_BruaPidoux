@@ -5,7 +5,7 @@ function drawCanvas(canvas) {
     img.onload = function() {
         ctx.drawImage(img, 0, 0, img.width * 0.06, img.height * 0.06)
     }
-    img.src = 'helmet.png';
+    img.src = 'pictures/helmet.png';
 }
 
 function fillBar(x){
@@ -22,7 +22,7 @@ function char_pic(x){
     img.onload = function() {
         ctx.drawImage(img, x* ctx.canvas.width/100 -15, 0, img.width * 0.06, img.height * 0.06)
     }
-    img.src = 'helmet.png';
+    img.src = 'pictures/helmet.png';
 }
 
 function decision(x) {
@@ -32,12 +32,9 @@ function decision(x) {
 
     switch (x) {
         case '0':
-            //document.getElementById('frase_lose').innerHTML = document.getElementById('player_name') + ' TE ATRAPARON LOS GUARDIAS'
-
             window.location.href = "perdiste.html"
             break
         case '01':
-            //document.getElementById('frase_win').innerHTML = document.getElementById('player_name')
             window.location.href = "ganaste.html"
             break
         case '1':

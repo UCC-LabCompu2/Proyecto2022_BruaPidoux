@@ -1,7 +1,7 @@
 body {
   background-image: 
   linear-gradient(rgba(18, 37, 20, 0.761), rgba(33, 45, 24, 0.694)),
-  url(index_fondo.png);
+  url("pictures/index_fondo.png");
   background-attachment: fixed;
 }
 

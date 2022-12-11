@@ -1,11 +1,11 @@
 body {
-  background-image: url(perdiste_fondo.png);
+  background-image: url(pictures/perdiste_fondo.png);
   background-attachment: fixed;
 }
 .perdiste{
   color: rgb(204, 204, 204);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 19%;
+  margin-top: 12%;
   margin-left: 12%;
   margin-right: 10%;
   font-size: 50px;
